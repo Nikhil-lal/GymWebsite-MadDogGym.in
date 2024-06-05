@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.booknow{
+    background-image: url(image/Rectangle\ 25.png);
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 80px;   
+  
+}
+
+
+.booking-container {
+    max-width: 400px;
+    margin: 25px auto;
+    background: wheat;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+.booking-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* So that width includes padding */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+
+a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+
+    background-color: #D73D3D;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    padding-left: 35px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+
+    font-size: 28px;
+}
+
+.aftL {
+    margin-left: 110px;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li {
+    display: flex;
+}
+
+ul li {
+
+    list-style: none;
+    margin: 0 45px;
+    cursor: pointer;
+
+
+}
+
+.white {
+    color: white;
+}
+
+.white:hover {
+    color: black;
+    font-weight: 200;
+}
+
+ul button {
+    padding: 9px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+ul button:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+hr {
+
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+}
+
+.intro {
+    background-image: url(image/1st\ image.png);
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro h1{
+
+font-size: 45px;
+margin: 35px;
+}
+.intro h4{
+    font-size: 30px;
+    margin: 10px;
+
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head h1,
+h3 {
+    padding: 8px;
+
+}
+
+.head h1 {
+    font-size: 45px;
+}
+
+.p {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    text-align: center;
+
+}
+
+.p p {
+    line-height: 25px;
+}
+
+.p p,
+button {
+    padding: 18px;
+}
+
+.p button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    font-weight: bold;
+    background-color: #D73D3D;
+
+}
+
+.p button:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+strong {
+    color: #D73D3D;
+}
+
+.program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.program p {
+    width: 60vw;
+    text-align: center;
+    margin-top: 15px;
+    border: 2px solid skyblue;
+    border-style: dotted;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+
+}
+
+.container {
+    margin: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    padding: 15px;
+    margin: 30px;
+}
+
+.img3 {
+
+    background-image: url(image/3rd\ img.png);
+    width: 100vw;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.img3 h1 {
+    font-size: 35px;
+    margin: 8px;
+
+}
+
+.img3 p {
+    width: 57vw;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 8px;
+    text-align: center;
+
+
+
+}
+
+.img3 button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    font-weight: bold;
+    background-color: #D73D3D;
+    margin: 8px;
+
+}
+
+.box {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square {
+    padding: 30px;
+}
+
+.square p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.square img {
+    border-radius: 15px;
+}
+
+.img3 {
+
+    background-image: url(image/Rectangle\ 17.png);
+    width: 100vw;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.img4 {
+
+    background-image: url(image/Rectangle\ 25.png);
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 8px;
+    color: wheat;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.img4 h1 {
+
+    width: 18vw;
+    margin-left: 255px;
+    font-size: 46px;
+}
+
+.img5 {
+
+    background-image: url(image/Group\ 6.png);
+    width: 100vw;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.footer {
+
+    width: 100vw;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.elogo {
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.eh2 {
+    width: 15vw;
+    line-height: 32px;
+    margin-top: 25px;
+
+}
+
+.footc {
+
+    display: flex;
+
+}
+
+.footc h1 {
+    padding: 35px;
+
+}
+
+.last {
+    width: 100vw;
+    background-color: black;
+    height: 6vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
